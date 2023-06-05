@@ -562,7 +562,7 @@ console.log(oddarray1)
 // 21. Write a js program to left rotate an array.
 let array21=[1,2,3,4,5]
 let n=3
-
+ 
 for (let i = 0; i < n; i++) {
    let temp=array21.shift();
    array21.push(temp);
